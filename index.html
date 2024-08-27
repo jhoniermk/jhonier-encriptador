@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="Logo" class="alura-logo">
+    </header>
+
+    <main class="main">
+        <section class="encriptador">
+            <textarea id="inputText" class="encriptar" placeholder="Ingrese el texto aquí" maxlength="500"></textarea>
+            <div class="aviso-encriptador">
+                <span class="aviso-texto">Solo letras minúsculas y sin acentos</span>
+            </div>
+            <div class="encriptador-container">
+                <button id="encryptBtn" class="btn-encriptar">Encriptar</button>
+                <button id="decryptBtn" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta-texto">
+            <div id="outputContainer" class="tarjeta-container">
+                <img src="Muñeco.png" alt="Muñeco" class="img-muñeco">
+                <p id="outputText" class="texto-uno">Ningún mensaje fue encontrado</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Jhonier Nairobi Mosquera Perea</p>
+    </footer>
+
+    <button id="darkModeBtn" class="dark-theme-btn">Modo</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
